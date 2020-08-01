@@ -36,7 +36,7 @@ int make_socket(char *host, char *port) {
 	if(p == NULL) {
 		if(servinfo)
 			freeaddrinfo(servinfo);
-		fprintf(stderr, "> Witaj w StormBypass\n> Jest to stresser\n > Aby uzyc wpisz\n./stormbypass <ip> <port>\n");
+		fprintf(stderr, "> Witaj w StormBypass\n> Jest to stresser\n> Aby uzyc wpisz\n./mcstorm <ip> <port>\n");
 		exit(0);
 	}
 	if(servinfo)
